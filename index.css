@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: azure;
+}
+
+.passwordGenerator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: rgb(84, 148, 105);
+  height: 60vh;
+  width: 350px;
+  border-radius: 7px;
+  color: aliceblue;
+}
+
+.any {
+  margin-bottom: 40px;
+  font-size: xx-large;
+}
+
+.item {
+  font-size: larger;
+  margin-block: 6px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  width: 25px;
+  aspect-ratio: 1/1;
+  outline: none;
+}
+
+.length {
+  width: 25px;
+  padding: 5px;
+  outline: none;
+  border-radius: 2px;
+  border: none;
+}
+
+.screen {
+  background-color: aliceblue;
+  height: 20px;
+  width: calc(100% - 16px);
+  border-radius: 4px;
+  padding: 8px;
+  margin-top: 80px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+  position: relative;
+}
+
+.screen::-webkit-scrollbar {
+  display: none;
+}
+
+.icon{
+  position: absolute;
+  right: 8px;
+  background-color: white;
+}
+
+
+
+.btn {
+   background-color: white;
+   width: 100%;
+   color: rgb(84, 148, 105);
+   border-radius: 4px;
+   padding-block: 10px;
+   text-align: center;
+   margin-top: 10px;
+   
+
+}
